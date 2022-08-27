@@ -1,0 +1,6 @@
+/node_modules/
+.index.html/
+/css/
+/assets/
+/.vscode/
+.script.js/
