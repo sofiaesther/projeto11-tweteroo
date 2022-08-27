@@ -16,7 +16,7 @@ app.post('/sign-up', (req,res)=>{
         return
     }
     users.push(userdata);
-    res.status(200).send("0k");
+    res.status(201).send("0k");
 });
 
 app.post('/tweets',(req,res)=>{
@@ -26,7 +26,7 @@ app.post('/tweets',(req,res)=>{
         return
     }
     tweets.push(tweet);
-    res.status(200).send("Ok");
+    res.status(201).send("Ok");
 });
 
 app.get('/tweets',(req,res)=>{
@@ -45,4 +45,4 @@ app.get('/tweets',(req,res)=>{
 });
 
 
-app.listen(4000);
+app.listen(5000);
