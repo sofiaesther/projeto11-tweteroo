@@ -1,6 +1,6 @@
-/node_modules
+node_modules
 .index.html
-/css
-/assets
+css
+assets
 /.vscode
 .script.js
